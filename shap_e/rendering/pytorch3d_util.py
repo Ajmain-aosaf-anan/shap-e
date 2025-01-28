@@ -4,7 +4,7 @@ from typing import Any, Callable, List, Sequence, Tuple, Union
 
 import numpy as np
 import torch
-from pytorch3d.renderer import (
+from pytorch3d.pytorch3d.renderer import (
     BlendParams,
     DirectionalLights,
     FoVPerspectiveCameras,
@@ -14,8 +14,8 @@ from pytorch3d.renderer import (
     SoftPhongShader,
     TexturesVertex,
 )
-from pytorch3d.renderer.utils import TensorProperties
-from pytorch3d.structures import Meshes
+from pytorch3d.pytorch3d.renderer.utils import TensorProperties
+from pytorch3d.pytorch3d.structures import Meshes
 
 from shap_e.models.nn.checkpoint import checkpoint
 
